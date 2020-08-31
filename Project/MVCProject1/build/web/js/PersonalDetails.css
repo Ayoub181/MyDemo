@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-Aug-2020, 16:58:24
+    Author     : user
+*/
+.DashConatiner{
+    position: absolute;
+    background-color: #1c6e97;
+    height: 39em;
+    margin-bottom: 12px;
+    width: 70em;
+    left: 8%;
+    top: 8%;
+    border-radius: 15px;    
+}
+.left-bar{
+    float: left;
+    background-color: #edeff8;
+    height: 39em;
+    width: 13em;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#left-tab{
+    
+    background-color:#edeff8;
+    width: 10em;
+    height: 10em;
+    border-radius: 10px;
+}
+.text-info{
+    position: absolute;
+    left: 50px;
+}
+li{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+li a:hover{
+    text-decoration: none;
+    background: none;
+}
+.A{
+    margin-top: 2em;
+    position: absolute;
+    right: 10px;
+  
+}
+.fas{
+    right: -10px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.A a :hover{
+    text-decoration: none;
+}
+.active{
+    
+    background-color: #d270c5;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.active a{
+    color: white;
+    text-decoration: none;
+}
+.PersonalForm{
+    float: right;
+    background-color: #edeff8;
+    width: 55.5em;
+    height: 34.9em;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 28px;
+    border-top-left-radius: 6em;
+    //border-bottom-left-radius: 6em;
+    border-bottom-right-radius: 15px;
+}
+form {
+    margin-top: 4%;
+    margin-left: 8%;
+}
+.btn-person {
+    margin-left: 10em;
+    width: 20em;
+    font-weight: bold;
+}
